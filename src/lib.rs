@@ -3,7 +3,7 @@ use pyo3::exceptions::PyException;
 use pyo3::prelude::*;
 use std::path::PathBuf;
 
-pyo3::create_exception!(xmpkit, AutohintError, PyException);
+pyo3::create_exception!(tilvisan, AutohintError, PyException);
 
 #[pymodule]
 mod tilvisan {
