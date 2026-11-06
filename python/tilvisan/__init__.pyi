@@ -45,7 +45,7 @@ def autohint(
         dehint: Remove all hints.
         default_script: The default script tag to use.
         fallback_script: The fallback script tag to use.
-        family_suffix: ....
+        family_suffix: The suffix to append to family name strings in the 'name' table.
         hinting_limit: The hinting limit (PPEM).
         fallback_stem_width: The value of the fallback stem width (font units).
         ignore_restrictions: If `True`, ignore font restrictions (fsType bit 1).
@@ -55,7 +55,7 @@ def autohint(
         control_file: The control file path.
         no_info: If `True`, do not add autohinter info to 'name' table.
         pre_hinting: If `True`, do pre-hinting (deprecated alias for adjust-subglyphs).
-        adjust_subglyphs: Alias for adjust-subglyphs.
+        adjust_subglyphs: If `True`, handle subglyph adjustments in uncommon fonts.
         reference: Reference font file path.
         fallback_scaling: If `True`, use fallback scaling instead of hinting.
         symbol: If `True`, the font will be processed as a symbol font.
