@@ -71,7 +71,7 @@ def autohint(
         epoch: The epoch for reproducible builds (seconds since 1970-01-01).
 
     Raises:
-        AutoHint
+        AutohintError: The library's error type.
     """
 
 def __getattr__(name: str) -> Incomplete: ...
