@@ -8,6 +8,8 @@ on:
 
 permissions: {}
 
+cache-mode: none
+
 jobs:
   linux:
     permissions:
